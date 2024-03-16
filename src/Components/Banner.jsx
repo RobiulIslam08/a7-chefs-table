@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="flex flex-col lg:flex-row w-[100%] lg:h-[490px] h-full gap-8  bg-[url('https://i.ibb.co/Fhk98Sw/Rectangle-1-1.png')] bg-[#12132D] bg-no-repeat bg-bottom rounded-xl bg-cover lg:rounded-[22px] mb-7">
+        <div className="mb-[100px] flex flex-col lg:flex-row w-[100%] lg:h-[490px] h-full gap-8  bg-[url('https://i.ibb.co/Fhk98Sw/Rectangle-1-1.png')] bg-[#12132D] bg-no-repeat bg-bottom rounded-xl bg-cover lg:rounded-[22px] ">
         
         <div className="w-[900px] flex flex-col justify-center mx-auto items-center text-white">
             <h1 className="mb-6 text-5xl font-bold text-center">Discover an exceptional cooking class tailored for you!</h1>

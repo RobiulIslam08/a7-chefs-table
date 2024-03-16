@@ -10,12 +10,12 @@
     },
     {
       "recipe_id": 2,
-      "recipe_name": "https://i.ibb.co/M2pWdsm/vegetable-curry.jpg",
+      "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful vegetarian curry with assorted vegetables.",
       "ingredients": ["300 g mixed vegetables", "100 g coconut milk", "150 g curry paste", "200 g tofu"],
       "preparing_time": "40 min",
       "calories": "250 calories",
-      "recipe_image": "vegetable_curry.jpg"
+      "recipe_image": "https://i.ibb.co/M2pWdsm/vegetable-curry.jpg.jpg"
     },
     {
       "recipe_id": 3,
