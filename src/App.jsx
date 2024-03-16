@@ -3,7 +3,8 @@ import Banner from "./Components/Banner"
 import Food from "./Components/Food"
 import Header from "./Components/Header"
 import Select from "./Components/Select"
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [coutn, setCount] = useState(0)
@@ -17,9 +18,20 @@ function App() {
 
 
   function addItem(card){
+    const notify = () => toast("Wow so easy !");
     // const newCard = [[...setCards],card]
-    setCarts([...carts,card])
-    setCount(coutn+ 1)
+    const isExit = carts.find(item => item.recipe_id === card.recipe_id)
+    
+    if(!isExit){
+      setCarts([...carts,card])
+      
+      setCount(coutn+ 1)
+    }
+    else{
+     
+      toast("Already Exit")
+    }
+    
   }
   console.log(carts)
 
@@ -48,7 +60,7 @@ function App() {
           }
           
         </div>
-        <div className="col-span-5 bg-purple-300">
+        <div className="col-span-5 h-auto border rounded-lg">
         <div>
       <h1 className="p-5 text-center text-[#282828] text-2xl font-semibold" >Want to Cook:{coutn} </h1>
       <hr className="w-[80%] mx-auto"/>
@@ -57,9 +69,9 @@ function App() {
           <thead>
             <tr>
               <th></th>
-              <th>Name</th>
-              <th>Time</th>
-              <th>Calories</th>
+              <th className="text-lg">Name</th>
+              <th className="text-lg">Time</th>
+              <th className="text-lg">Calories</th>
             </tr>
             
               {
@@ -88,6 +100,7 @@ function App() {
       </div>
 
     </div>
+    <ToastContainer />
    </div>
   )
 }

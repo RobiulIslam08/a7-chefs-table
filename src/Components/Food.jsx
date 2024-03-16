@@ -4,7 +4,7 @@ const Food = ({card, addItem}) => {
    
    const {recipe_name,short_description,ingredients,preparing_time,calories,recipe_image} = card
   return (
-    <div className="p-3 bg-slate-200">
+    <div className="p-3 ">
       <div>
         <div className="card  bg-base-100 shadow-xl">
         
@@ -26,14 +26,14 @@ const Food = ({card, addItem}) => {
               }
             </p>
 
-            <div className="mt-4 mb-4 flex gap-1 text-[#282828CC] justify-center ">
+            <div className="mt-4 mb-4 flex gap-1 text-[#282828CC] justify-between ">
               <div className="flex gap-2 justify-center  items-center">
               <CiClock2 className="text-[22px]" />
-              <p className="">{preparing_time} minutes</p>
+              <p className="">{preparing_time} </p>
               </div>
               <div className="flex gap-2 justify-center items-center">
               <FaFire />
-              <p>{calories} calories</p>
+              <p>{calories} </p>
               </div>
             </div>
             <div className="card-actions justify-start">
