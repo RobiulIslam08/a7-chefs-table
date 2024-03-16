@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Chicken Stir-Fry",
+      "short_description": "A delicious and easy chicken stir-fry recipe.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
+      "preparing_time": "30 min",
+      "calories": "320 calories",
+      "recipe_image": "https://i.ibb.co/GQyz3S3/chicken-stir-fry.jpg"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "https://i.ibb.co/M2pWdsm/vegetable-curry.jpg",
+      "short_description": "A flavorful vegetarian curry with assorted vegetables.",
+      "ingredients": ["300 g mixed vegetables", "100 g coconut milk", "150 g curry paste", "200 g tofu"],
+      "preparing_time": "40 min",
+      "calories": "250 calories",
+      "recipe_image": "vegetable_curry.jpg"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish with creamy sauce and crispy bacon.",
+      "ingredients": ["400 g spaghetti", "150 g bacon", "100 g grated Parmesan", "3 eggs"],
+      "preparing_time": "25 min",
+      "calories": "380 calories",
+      "recipe_image": "https://i.ibb.co/d4djkdL/spaghetti-carbonara.jpg"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Blueberry Pancakes",
+      "short_description": "Fluffy pancakes loaded with fresh blueberries.",
+      "ingredients": ["200 g all-purpose flour", "150 ml milk", "100 g blueberries", "2 eggs"],
+      "preparing_time": "20 min",
+      "calories": "220 calories",
+      "recipe_image": "https://i.ibb.co/n6Z8bfK/blueberry-pancakes.jpg"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Grilled Salmon",
+      "short_description": "Healthy and delicious grilled salmon seasoned with herbs.",
+      "ingredients": ["400 g salmon fillet", "50 g olive oil", "2 lemons", "Salt and pepper"],
+      "preparing_time": "15 min",
+      "calories": "300 calories",
+      "recipe_image": "https://i.ibb.co/TPZY4qS/Grilled-Salmon.jpg"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "Creamy risotto packed with flavorful mushrooms.",
+      "ingredients": ["300 g Arborio rice", "200 g mushrooms", "1 onion", "1 liter vegetable broth"],
+      "preparing_time": "35 min",
+      "calories": "280 calories",
+      "recipe_image": "https://i.ibb.co/7t0BjKP/Mushroom-Risottojpg.jpg"
+    }
+  ]
+  
