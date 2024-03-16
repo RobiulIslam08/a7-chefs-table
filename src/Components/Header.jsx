@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div >
            {/* navbar start here */}
-           <div className="navbar flex justify-between  items-center">
+           <div className="navbar mb-[50px] flex justify-between  items-center">
   <div className="">
     <a className="font-bold text-[#150B2B] text-3xl">Recipe Calories</a>
   </div>
@@ -18,9 +18,9 @@ const Header = () => {
     </ul>
   </div>
   <div className="gap-2">
-  <label className="input input-bordered flex items-center gap-2">
+  <label className="input rounded-full bg-[#150B2B0D] input-bordered flex items-center gap-2">
   <CiSearch />
-  <input type="text" className="grow" placeholder="Email" />
+  <input type="text" className=" " placeholder="Search" />
 </label>
     <div className="">
     <CgProfile className="text-4xl bg-[#0BE58A] p-[4px] rounded-full"/>
