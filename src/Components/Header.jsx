@@ -11,10 +11,10 @@ const Header = () => {
   </div>
   <div className='  '>
     <ul className='flex flex-row gap-11 text-base font-normal text-[#150B2BB3]'>
-    <li className="btn hover:bg-slate-200">home</li>
-    <li className="btn hover:bg-slate-200">Recipes</li>
-    <li className="btn hover:bg-slate-200">About</li>
-    <li className="btn hover:bg-slate-200">Search</li>
+    <li className="btn hover:bg-slate-200 text-[#150B2BB3]">home</li>
+    <li className="btn hover:bg-slate-200 text-[#150B2BB3]">Recipes</li>
+    <li className="btn hover:bg-slate-200 text-[#150B2BB3]">About</li>
+    <li className="btn hover:bg-slate-200 text-[#150B2BB3]">Search</li>
     </ul>
   </div>
   <div className="gap-2">
