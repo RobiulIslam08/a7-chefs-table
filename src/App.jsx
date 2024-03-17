@@ -109,7 +109,7 @@ function App() {
             </div>
             {/* second part start here */}
 
-            <h1 className="p-5 text-center text-[#282828] text-2xl font-semibold mb-3">
+            <h1 className="p-5 text-center text-[#282828] text-2xl font-semibold mt-5 mb-3">
                 Currently Cooking: {increse}
               </h1>
               <hr className="w-[80%] mb-6 mx-auto" />

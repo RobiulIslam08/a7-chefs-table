@@ -2,8 +2,8 @@ const Select = ({cart,idx,removeItem}) => {
     console.log(cart)
   
   return (
-    <tr >
-    <th className="text-[14px] py-5 ">{idx + 1}</th>
+    <tr className="bg-slate-100">
+    <th className="text-[14px]  ">{idx + 1}</th>
     <td className="text-[14px] py-5 ">{cart.recipe_name}</td>
     <td className="text-[14px] py-5">{cart.preparing_time}</td>
     <td className="text-[14px] py-5">{cart.calories}</td>
